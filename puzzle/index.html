@@ -4,7 +4,10 @@
   <meta charset="UTF-8">
   <title>Jetworld - Puzzle</title>
   <link rel="stylesheet" href="./style.css">
-
+  <link rel="icon" href="../wp-content/uploads/2020/01/cropped-favicon-100x100.png" sizes="32x32" />
+        <link rel="icon" href="../wp-content/uploads/2020/01/cropped-favicon.png" sizes="192x192" />
+        <link rel="apple-touch-icon-precomposed" href="../wp-content/uploads/2020/01/cropped-favicon.png" />
+        <meta name="msapplication-TileImage" content="https://overworld.qodeinteractive.com/wp-content/uploads/2020/01/cropped-favicon.png" />
 </head>
 <body>
 <!-- partial:index.partial.html -->
@@ -20,8 +23,21 @@
 	<g class="padre" id="7"><image xlink:href="https://raw.githubusercontent.com/NestorPlasencia/pikachu-puzzle/master/8.png" class="movil"></g>
 	<g class="padre" id="8"><image xlink:href="https://raw.githubusercontent.com/NestorPlasencia/pikachu-puzzle/master/9.png" class="movil"></g>
 </svg>
+<div class="modal-overlay" id="modal">
+	<div class="modal" id="modal1">
+		<table>
+			<tr>
+				<th><h2 class="winner">You Rock!</h2>
+				<button class="restart" onclick="collectClicked()">Gift</button></th>
+				<th><video style="width: 220px; " autoplay loop muted>
+					<source src="../wp-content/uploads/jetso/jetso/1.mp4" type="video/mp4">
+			   </video></th>	
+		   </tr>
+		</table>
+	</div>
+</div>
 <audio id="win" src="https://raw.githubusercontent.com/NestorPlasencia/PikaPuzzle/master/media/win.mp3"></audio>
-<button id="abc">click</button>
+<!-- <button id="abc">click</button> -->
 <!-- partial -->
   <script  src="./script.js"></script>
 

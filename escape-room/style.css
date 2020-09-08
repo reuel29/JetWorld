@@ -18,7 +18,7 @@ Objects in the Room
 #phone
 #tiles
 #open-door
-
+#modal
 ******/
 /* Start global colors */
 :root {
@@ -912,3 +912,6 @@ input[type="number"] {
   justify-self: center;
   align-self: center;
 }
+/* Modal popup */
+
+/* End Modal popup */

@@ -1914,6 +1914,7 @@ const app = new Vue({
 var haveEscaped;
 
 function escapeNow() {
+  
   haveEscaped = setTimeout(function() {
     //  replace door with opened version
     document.getElementById("door").style.opacity = "0";
@@ -1921,6 +1922,9 @@ function escapeNow() {
     // window.alert("You may now escape!");
     document.getElementById("escaped").style.visibility = "visible";
   }, 750);
+  setTimeout(function() {
+    window.location.href = "../birthday-gift/index.html";
+  },1500);
 }
 
 // Checks whether player has solved all puzzles, if yes, escape!
@@ -1941,6 +1945,7 @@ function verify() {
     pipePuzzleSolved == true &&
     recursionPuzzleSolved == true
   ) {
+  
     //ESCAPE
 
     escapeNow();
@@ -1948,4 +1953,8 @@ function verify() {
 }
 verify();
 
+function collectClicked(){
+	console.log("Collecting Reward here");
+	window.location.href = "../magazine-home/index.html";
+}
 // End JS for verification

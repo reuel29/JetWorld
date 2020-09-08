@@ -90,5 +90,19 @@ function testing() {
 	}
 	if(bien_ubicada == 9){
 		win.play();
+		document.getElementById("modal").style.visibility = "visible";
+		document.getElementById("modal").style.opacity = 1;
+		document.getElementById("modal1").style.visibility = "visible";
+		document.getElementById("modal1").style.opacity = 1;
 	}
+	
 }
+function collectClicked(){
+	console.log("Collecting Reward here");
+	window.location.href = "../magazine-home/index.html";
+}
+// Memory Game
+// © 2014 Nate Wiley
+// License -- MIT
+// best in full screen, works on phones/tablets (min height for game is 500px..) enjoy ;)
+// Follow me on Codepen

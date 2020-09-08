@@ -183,3 +183,7 @@
 
 
 })();
+function collectClicked(){
+	console.log("Collecting Reward here");
+	window.location.href = "../esports-home/index.html";
+}

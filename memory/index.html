@@ -5,8 +5,14 @@
   <title>Jetworld - Memory Game</title>
   <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Anton'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'><link rel="stylesheet" href="./style.css">
-
+<link rel="icon" href="../wp-content/uploads/2020/01/cropped-favicon-100x100.png" sizes="32x32" />
+        <link rel="icon" href="../wp-content/uploads/2020/01/cropped-favicon.png" sizes="192x192" />
+        <link rel="apple-touch-icon-precomposed" href="../wp-content/uploads/2020/01/cropped-favicon.png" />
+        <meta name="msapplication-TileImage" content="https://overworld.qodeinteractive.com/wp-content/uploads/2020/01/cropped-favicon.png" />
 </head>
 <body>
 <!-- partial:index.partial.html -->
@@ -15,14 +21,17 @@
 	
 	<div class="modal-overlay">
 		<div class="modal">
-			<h2 class="winner">You Rock!</h2>
-			<button class="restart">Play Again?</button>
-			<p class="share-text">Share it?</p>
-			<ul class="social">
-				<li><a target="_blank" class="twitter" href="https://twitter.com/share?url=https://codepen.io/natewiley/pen/HBrbL"><span class="fa fa-twitter"></span></a></li>
-				<li><a target="_blank" class="facebook" href="https://www.facebook.com/sharer.php?u=https://codepen.io/natewiley/pen/HBrbL"><span class="fa fa-facebook"></span></a></li>
-				<li><a target="_blank" class="google" href="https://plus.google.com/share?url=https://codepen.io/natewiley/pen/HBrbL"><span class="fa fa-google"></span></a></li>
-			</ul>
+			<div class="row">
+				<div class="col-sm-6">
+					<h2 class="winner">You Rock!</h2>
+					<button class="restart" onclick="collectClicked()">Gift</button>
+				</div>
+				<div class="col-sm-6">
+						<video style="width: 190px; " autoplay loop muted>
+							<source src="../wp-content/uploads/jetso/jetso/1.mp4" type="video/mp4">
+						</video>	
+				</div>
+			</div>
 		</div>
 	</div>
   <footer>
