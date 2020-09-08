@@ -302,5 +302,5 @@ function reveal() {
   {
     w = 255;h = 155;
   }
-
+  document.getElementById("video").style.visibility = "visible";
 }
