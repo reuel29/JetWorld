@@ -303,12 +303,4 @@ function reveal() {
     w = 255;h = 155;
   }
 
-  var win = document.getElementById("aud");
-  // win.play();
-  var ifrm = document.createElement("iframe");
-  ifrm.setAttribute("src", "../wp-content/uploads/jetso/jetso/hb.mp4");
-  //ifrm.style.width = `${w}px`;
-  //ifrm.style.height = `${h}px`;
-  ifrm.style.border = 'none';
-  document.querySelector('#video').appendChild(ifrm);
 }
