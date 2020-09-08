@@ -1950,6 +1950,10 @@ function verify() {
 
     escapeNow();
   }
+  if(mirrorPuzzleSolved == true)
+  {
+	  escapeNow();
+  }
 }
 verify();
 
