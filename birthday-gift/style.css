@@ -31,8 +31,9 @@ div#beach {
 
 div#video {
   position: absolute;
-  right: 243px;
-  bottom: 200px;
+  right: 293px;
+  bottom: 247px;
+  visibility: hidden;
 }
 
 div#video iframe {
@@ -444,8 +445,8 @@ div#sea {
   }
 
   div#video {
-    right: 290px;
-    bottom: 235px;
+    right: 293px;
+    bottom: 247px;
   }
 
   div#video iframe {
